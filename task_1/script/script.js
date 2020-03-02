@@ -1,3 +1,5 @@
+"use strict";
+
 menu.onclick = function myFunction() {
     var x = document.getElementById('myTopnav');
 
@@ -7,3 +9,9 @@ menu.onclick = function myFunction() {
         x.className = "topnav";
     }
 }
+
+
+let admin;
+let name = 'Джон';
+admin = name;
+alert(admin);

@@ -41,6 +41,61 @@ nav{
     display: none;
 }
 
+
+main{
+    display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+main .main_welcome{
+    background: #000;
+    text-align: center;
+    padding: 200px 0 410px 0;
+}
+main .main_welcome p{
+    color: #666666;
+    font-weight: 24px;
+}
+main .main_welcome h2{
+    color: #666666;
+    font-size: 44px;
+}
+.mycompany{
+    color: #ff9933;
+}
+
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+main .main_about{
+    display: flex;
+    padding: 100px 0 100px 0;
+}
+.about_right{
+    margin-left: 175px;
+}
+
+.about_right h2{
+    display: flex;
+    border-bottom: 3px solid #ff9933;
+    padding-bottom: 20px;
+}
+.about_right p{
+    margin: 30px 0 50px 0;
+    color: #666666;
+}
+
+.about_right li{
+    list-style: none;
+    background: url(img/menu-vector-icon.jpg) 0px no-repeat;
+    padding-left: 25px;
+}
+
+
+
+
+
 @media screen and (max-width:1200px){
     nav{
         margin-left: 20%;
