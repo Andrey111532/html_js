@@ -88,7 +88,8 @@ main .main_about{
 
 .about_right li{
     list-style: none;
-    background: url(img/menu-vector-icon.jpg) 0px no-repeat;
+    background: url(../img/mark.png) 0px no-repeat;
+    background-size: 20px 20px;
     padding-left: 25px;
 }
 
